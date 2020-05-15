@@ -1,0 +1,86 @@
+body{
+	margin: 10px 0;
+}
+.logo{
+	margin: 0 auto;
+	display:block;
+}
+nav{
+	background-color: #ff6600;
+}
+nav ul{
+	text-align: center;
+	margin: 0 auto;
+	padding: 8px
+	border-radius: 50px
+}
+nav li{
+	display: inline;
+	background-color: #c6c6c6;
+	padding: 8px 10px;
+	border-radius: 3px;
+}
+nav li:hover{
+	background-color: #dddddd;
+}
+
+input[type="submit"]{
+	margin-left:130px;
+}
+label{
+	float:left;
+    display:block;
+    width:120px;
+    text-align:right;
+    padding-right:10px;
+}
+img{
+  height: 500px;
+  background-size: ;
+  background-position: left;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  padding: 10px 10px 10px 0px;
+}
+
+p{
+  font-size: 1.3em;
+  color: black;
+  margin:50px;
+}
+main, .navbar .container-fluid{
+	max-width: 1200px;
+	margin:0 auto;
+}
+h1{
+	font-family: 'Bangers', cursive;
+	font-size:3em;
+}
+.pull-left-xs {
+    float: left;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+	.pull-left-sm {
+        float: left;
+    }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only all and (max-width: 768px) {
+	h1{
+	    font-size: 1.5em;
+	}
+	
+}
+footer{
+	color:white;
+	background-color: #f97304;
+	text-align:center;
+	padding:10px 10px;
+	margin:0;
+	display:block;  
+}
